@@ -1,0 +1,15 @@
+O objetivo deste projeto é permitir que você:
+
+✅ Carregue arquivos PDF contendo informações relevantes para seu estudo ou projeto.
+✅ Implemente um sistema de busca vetorial para indexar e recuperar informações dos PDFs.
+✅ Utilize inteligência artificial para gerar respostas baseadas no conteúdo dos documentos carregados.
+✅ Desenvolva um chat interativo onde seja possível realizar perguntas e obter respostas contextuais fundamentadas nos arquivos.
+
+Este projeto utiliza conceitos de IA generativa, embeddings e buscas vetorizadas com Azure AI Foundry.
+
+As etapas técnicas realizadas neste projeto incluem:
+
+🔹 Geração de embeddings com o modelo 'text-embedding-ada-002' usando Azure OpenAI.
+🔹 Indexação vetorial dos conteúdos em Azure AI Search.
+🔹 Configuração de conexões seguras via Azure Machine Learning Workspace.
+🔹 Mapeamento dos campos dos documentos para estrutura de busca semântica.
